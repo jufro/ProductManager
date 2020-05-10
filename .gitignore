@@ -4,7 +4,7 @@ HELP.md
 .gradle
 build/
 target/
-
+git
 ### STS ###
 .apt_generated
 .classpath
