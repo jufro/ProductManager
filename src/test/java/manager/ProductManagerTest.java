@@ -61,7 +61,7 @@ class ProductManagerTest {
     @Test
     void shouldSearchByBookNameIfNotExists() {
         Product[] actual = manager.searchBy("Harry Potter");
-        Product[] expected = {null};
+        Product[] expected = new Product[0];
         assertArrayEquals(expected, actual);
     }
 }
