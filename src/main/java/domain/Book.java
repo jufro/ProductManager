@@ -5,8 +5,6 @@ import lombok.EqualsAndHashCode;
 import java.util.Objects;
 
 @Data
-@EqualsAndHashCode(callSuper = true)
-
 public class Book extends Product {
         private String author;
 

@@ -2,8 +2,6 @@ package manager;
 
 import domain.Product;
 import repository.ProductRepository;
-import domain.Book;
-import domain.Smartphone;
 
 public class ProductManager {
     private ProductRepository repository;

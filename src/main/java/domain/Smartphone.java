@@ -1,12 +1,9 @@
 package domain;
 
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 import java.util.Objects;
 
 @Data
-@EqualsAndHashCode(callSuper = true)
-
 public class Smartphone extends Product {
     private String madeBy;
 
